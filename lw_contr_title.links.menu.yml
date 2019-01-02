@@ -1,0 +1,6 @@
+# Define the menu links for this module
+
+entity.content_entity_lw_contact.collection:
+  title: 'Custom Title LW Example'
+  route_name: lw_contr_title.title_callback_page
+  description: 'custom title'

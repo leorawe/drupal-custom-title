@@ -1,0 +1,7 @@
+lw_contr_title.title_callback_page:
+  path: '/lw/dyntitle'
+  defaults:
+    _controller: '\Drupal\lw_contr_title\Controller\CustomTitleController::dummyPage'
+    _title_callback: '\Drupal\lw_contr_title\Controller\CustomTitleController::titleCallback'
+  requirements:
+    _permission: 'access_content'
